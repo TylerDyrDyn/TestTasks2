@@ -1,0 +1,30 @@
+body {
+    font-family: Arial;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.section {
+    flex: 1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    margin-top: 10px;
+
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;;
+}
